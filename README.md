@@ -1,2 +1,110 @@
 # cautious-octo-umbrella
 Lab Echo
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Kingram Game Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+
+  <body>
+    <div class="container-fluid" style="padding: 0">
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="navbar-brand" style="margin: 0.5rem">My Game Portfolio</div>
+      </nav>
+
+      <div class="row" style="margin: 1rem">
+        <div class="col-sm-12">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">About</h4>
+              <p class="card-text">Here are my games for you to relax</p>
+              <a
+                href="https://github.com/kobyingram11/cautious-octo-umbrella"
+                class="card-link"
+                >View source</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" style="margin: 1rem">
+        <div class="col-sm-12">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">Validity</h4>
+              <a
+                href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fkhoiuna.github.io%2Fcis-echo-lab%2F"
+                class="card-link"
+                >View Nu HTML Checker</a
+              >
+            </div>
+
+            <div class="card-body">
+              <h4 class="card-title">Issues:</h4>
+              <ul>
+                <li>Should not edit files using GitHub's code editor.</li>
+                <li>Footer should be at the bottom of page.</li>
+                <li>
+                  Users can press enter to play "Cool name facts" without
+                  clicking.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="games-row" class="row">
+        <!-- Game one card -->
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">Wow Game</h4>
+              <p class="card-text">A game for you to drag and relax</p>
+              <a
+                href="https://kobyingram11.github.io/scaling-palm-tree/"
+                class="card-link"
+                >Go to game</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Game two card -->
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">Cool Name Facts</h4>
+              <p class="card-text">
+                A game that gives you some cool facts about your name!
+              </p>
+              <a href="https://kobyingram11.github.io/legendary-meme/" class="card-link"
+                >Go to game</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer mt-auto py-3 bg-light">
+        <div class="container">
+          <span class="text-muted"
+            >&copy; 2022 <a href="https://github.com/kobyingram11">Koby Ingram</a>
+          </span>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
